@@ -1,0 +1,165 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "5685b42b-acaa-4775-9497-7fa82bb40bd3",
+  "name": "HealthUI",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "534f395a-09c8-46af-a246-01e46980963f",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "3",
+        "choices": 5,
+        "__collapseCase0": true,
+        "value0": 1,
+        "__collapseCase1": true,
+        "value1": 2,
+        "__collapseCase2": true,
+        "value2": 3,
+        "__collapseCase3": true,
+        "value3": 4,
+        "__collapseCase4": true,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 0,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "1",
+              "loopAnim": true
+            },
+            "id": "c7e2121a-45ef-4747-a663-419eb18e7b5b"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "2",
+              "loopAnim": true
+            },
+            "id": "dd179c2a-b498-4f86-bdaa-90bcdb28bf43"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "3",
+              "loopAnim": true
+            },
+            "id": "cf91182d-d7ce-4733-8c34-725f834ec100"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "4",
+              "loopAnim": true
+            },
+            "id": "fe8a6345-acdd-41f2-9a89-9e3d7288b4ea"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "0dde9d2b-8f28-4781-bd83-6032356c8294"
+          }
+        ],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "0",
+              "loopAnim": true
+            },
+            "id": "82d7c67e-45ac-4680-85c1-d651024e0aca"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30
+            },
+            "id": "0e1d4d14-6f55-40be-87e8-3199c8f48c26"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fd15d1c2-9b08-400c-b331-ecad4bb568bf",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "914d07d5-6816-42b2-add5-da40367881c5"
+          }
+        ]
+      },
+      "id": "fe99eaed-d1ca-4f22-99b3-e62ac1b68a9d"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

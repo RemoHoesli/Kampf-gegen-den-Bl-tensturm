@@ -1,0 +1,45 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Blickrichtung_links",
+      "symbol": "var_blickrichtung_links_0"
+    },
+    {
+      "id": "1",
+      "name": "Blickrichtung_vorne",
+      "symbol": "var_blickrichtung_vorne"
+    },
+    {
+      "id": "2",
+      "name": "Blickrichtung_rechts",
+      "symbol": "var_blickrichtung_rechts"
+    },
+    {
+      "id": "3",
+      "name": "Health",
+      "symbol": "var_health_0"
+    },
+    {
+      "id": "4",
+      "name": "TreeX",
+      "symbol": "var_treex"
+    },
+    {
+      "id": "5",
+      "name": "TreeY",
+      "symbol": "var_treey"
+    },
+    {
+      "id": "6",
+      "name": "Score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "7",
+      "name": "Neustart",
+      "symbol": "var_neustart"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "e962405c-2404-464c-85c2-4bf000866c48",
+  "name": "Pollen",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3d54f580-3dd9-47ba-a4e2-f38ed45d90c3",
+  "moveSpeed": 2,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6a01ea99-2c05-4b19-9283-5e55fbcc431f"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e87a71a0-258e-4e3d-a9d5-75516892332c"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "f00b0f8e-1594-4107-a507-7ccd7ceb4c99"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "323e79e3-5804-40b1-8d10-7d2d00b6b9ef"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "6"
+      },
+      "id": "49c90463-b407-485f-ae06-d1878a0965dc"
+    }
+  ]
+}

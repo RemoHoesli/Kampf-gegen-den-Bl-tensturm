@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "7fbd1ca1-f04f-46be-8770-cd0c414651b0",
+  "name": "Baum_001",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "52e1ee1f-fb8c-42fa-a071-b4217d3e2f72",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "0fbe7e96-4949-4445-b6f0-39cb0667a69a": {
+      "id": "0fbe7e96-4949-4445-b6f0-39cb0667a69a",
+      "args": {
+        "duration": 1.5
+      }
+    },
+    "dc13bdd1-3bda-47cf-be36-a1bfd147eae5": {
+      "id": "dc13bdd1-3bda-47cf-be36-a1bfd147eae5",
+      "args": {
+        "duration": 1.5
+      }
+    }
+  },
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 2,
+  "_index": 0
+}

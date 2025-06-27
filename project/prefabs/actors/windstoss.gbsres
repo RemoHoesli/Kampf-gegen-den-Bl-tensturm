@@ -1,0 +1,19 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "cb8c2db9-a4fc-4ab9-a424-24f9164d26f8",
+  "name": "Windstoss",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "35445568-06ce-4c4b-8bf5-6dc7bf1bd810",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "3",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
