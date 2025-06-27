@@ -1,1 +1,1 @@
-https://remohoesli.github.io/Kampf-gegen-den-Bl-tensturm/
+https://remohoesli.github.io/Kampf-gegen-den-Bl-tensturm/build/web
